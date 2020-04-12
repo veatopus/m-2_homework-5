@@ -14,7 +14,28 @@ public class Uploader extends Thread {
     public void run() {
         System.out.println("проект загружается на сервер");
         try {
-            sleep(500/20*1000);
+            sleep(50/20*1000);
+            System.out.print("*");
+            sleep(50/20*1000);
+            System.out.print("*");
+            sleep(50/20*1000);
+            System.out.print("*");
+            sleep(50/20*1000);
+            System.out.print("*");
+            sleep(50/20*1000);
+            System.out.print("*");
+            sleep(50/20*1000);
+            System.out.print("*");
+            sleep(50/20*1000);
+            System.out.print("*");
+            sleep(50/20*1000);
+            System.out.print("*");
+            sleep(50/20*1000);
+            System.out.print("*");
+            sleep(50/20*1000);
+            System.out.println("*");
+            sleep(50/20*1000);
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
