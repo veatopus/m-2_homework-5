@@ -35,6 +35,7 @@ public class Uploader extends Thread {
             sleep(50/20*1000);
             System.out.println("*");
             sleep(50/20*1000);
+            System.out.println("проект загружен на сервер");
 
         } catch (InterruptedException e) {
             e.printStackTrace();
